@@ -1,0 +1,252 @@
+
+.cat {
+    width: 60px;
+    border-radius: 30px;
+    vertical-align: middle;
+}
+
+.content {
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+    font-size: 18px;
+    font-family: Arial;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+.content:focus {
+    outline: none;
+}
+
+.tweet-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px 18px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.tweet-button:hover {
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.15);
+}
+.tweet-button:active {
+    opacity: 0.8;
+}
+.tweet-box {
+    border-radius: 13px;
+    padding: 10px 20px;
+    width: 415px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cat2 {
+    width: 150px;
+}
+.doggo1 {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.doggo2 {
+    width: 150px;
+    height: 150px;
+    object-fit: cover
+}
+.name {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.friends {
+    font-size: 16px;
+    color: rgb(92, 92, 92);
+    font-family: Arial;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.add-friend-button {
+    background-color: rgb(11, 115, 252);
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px 18px;
+    border-radius: 6px;
+    margin-left: 8px;
+    margin-bottom: 12px;
+    transition: 0.1s;
+}
+.add-friend-button:hover {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+}
+.add-friend-button:active {
+    opacity: 0.8;
+}
+.friend-suggestion {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+    width: 150px;
+    display: inline-block;
+    margin: 10px 10px;
+}
+.img-box {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 7px;
+}
+.cat2_ {
+    width: 60px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.doggo1_ {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.doggo2_ {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.text-div {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 100px;
+    width: 80px;
+}
+.button-box {
+    display: inline-block;
+    vertical-align: center;
+    padding-top: 12px;
+}
+.follow-div {
+    width: 500px;
+    margin-top: 20px;
+}
+.name_ {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial;
+    margin-bottom: 4px;
+    margin-top: 0px;
+    color: rgb(51, 47, 47);
+}
+.description {
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    color: grey;
+}
+.popularity {
+    font-size: 14px;
+    font-family: Arial;
+    margin-top: 0px;
+    color: grey;
+}
+.follow-box {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    width: 400px;
+    border-radius: 14px;
+    margin-left: 10px;
+}
+
+.search-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    height: 25px;
+    background-color: rgb(167, 50, 151);
+    border: none;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.left-section {
+    margin-left: 0px;
+}
+
+.home-button {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.home-button:hover {
+    text-decoration: underline;
+}
+
+.middle-section {
+    border: none;
+    flex: 1;
+    margin-left: 60px;
+    margin-right: 100px;
+    max-width: 500px;
+}
+
+.search {
+    font-size: 16px;
+    font-family: Arial;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 100px;
+    width: 100%;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.right-section {
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.download-button {
+    border-color: white;
+    border-radius: 4px;
+    color: white;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 16px;
+    padding: 10px 14px;
+    transition: 0.1s;
+}
+
+.download-button:hover {
+    color: rgb(167, 50, 151);
+    background-color: white;
+}
+
+.download-button:active {
+    opacity: 0.8;
+}

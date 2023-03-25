@@ -1,0 +1,56 @@
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body {
+    /* font-family inheritance*/
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: rgb(247, 247, 247);
+    margin-bottom: 200px;
+}
+
+.watermark {
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-weight: 700;
+    color: red;
+    border: 2px solid red;
+    transition: 0.1s;
+    display: flex;
+    cursor: pointer;
+}
+
+.watermark:hover {
+    color: white;
+    background-color: red;
+}
+
+.watermark .watermark-text {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    padding: 7px 12px;
+    border-radius: 5px;
+    top: -35px;
+    left: -200px;
+    opacity: 0;
+    transition: opacity 0.1s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.watermark:active .watermark-text {
+    opacity: 1;
+}

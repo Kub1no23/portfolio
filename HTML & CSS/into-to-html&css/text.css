@@ -1,0 +1,82 @@
+p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+.video-title {
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 2px;
+  }
+.views-date {
+    font-size: 14px;
+    color: #606060;
+    margin-bottom: 16px;
+  }
+.creator {
+    color: #606060;
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+.description {
+    color: #606060;
+    font-size: 14px;
+    line-height: 20px;
+    width: 270px;
+    margin-bottom: 100px;
+  }
+.apple-text {
+    font-size: 14px;
+    background-color: #e34140;
+    margin: 8px;
+    margin-bottom: 100px;
+    padding: 16px;
+    color: white;
+    text-align: center;
+  }
+.span-shop:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+.title {
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+.comment {
+    font-family: Verdana;
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 15px;
+  }
+.description2 {
+    width: 320px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+.button-get-started {
+    background-color: rgb(34, 148, 34);
+    color: white;
+    border: none;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    font-family: Verdana;
+    transition: box-shadow 0.1s, opacity 0.1s;
+  }
+.button-get-started:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.15);
+  }
+.button-get-started:active {
+    opacity: 0.6;
+  }

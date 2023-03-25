@@ -1,0 +1,120 @@
+
+.ytb {
+    background-color: rgba(200, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 8px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+    }
+.ytb:hover {
+    opacity: 0.7;
+    }
+.ytb:active {
+    opacity: 0.5;
+}
+    
+.join {
+    background-color: white;
+    border-color: rgb(0, 132, 255);
+    border-radius: 3px;
+    color: rgb(0, 132, 255);
+    height: 35px;
+    width: 70px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 8px;
+    vertical-align: top;
+    transition: background-color 0.15s, color 0.15s;
+    }
+.join:hover {
+    background-color: rgb(0, 132, 255);
+    color: white;
+    }
+.join:active{
+    opacity: 0.7;
+    }
+.twitter {
+    background-color: rgb(29, 155, 240);
+    height: 35px;
+    width: 73px;
+    border: none;
+    border-radius: 17.5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 8px;
+    vertical-align: top;
+    transition: opacity 0.15s, box-shadow 0.15s;
+    }
+.twitter:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+.twitter:active {
+    opacity: 0.7;
+    }
+
+
+.amazon-button {
+    color: rgb(0,113,133);
+    }
+.amazon-button:hover {
+    color: rgb(233, 156, 13);
+    }
+    
+.description {
+    font-weight: bold;
+    font-size: 30px;
+    }
+    
+.price {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+    font-size: 20px;
+    }
+    
+.delivery {
+    font-size: 20px;
+    font-weight: bold;
+    }
+    
+.add-to-cart {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 17.5px;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: opacity 0.1s;
+    }
+.add-to-cart:hover {
+    opacity: 0.8;
+    }
+.add-to-cart:active {
+    opacity: 0.5;
+    }
+    
+.buy-now {
+    background-color: rgb(255, 164, 28);
+    border: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 17.5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.1s;
+    }
+.buy-now:hover {
+    opacity: 0.8;
+    }
+.buy-now:active {
+    opacity: 0.5;
+    }
