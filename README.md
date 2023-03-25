@@ -1,2 +1,2 @@
-# portfolio
+# Jakub Zlamal's portfolio
 programování
